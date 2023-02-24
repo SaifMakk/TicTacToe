@@ -1,5 +1,5 @@
 # TicTacToe Game
-### This code was created for educational purposes (OOP Application)
+### This code was created since 2020 for educational purposes (OOP Application)
 The Tic Tac Toe game is a simple two-player game that is played on a 3x3 grid. Players take turns placing their marks (either 'x' or 'o') on the grid, with the goal of getting three marks in a row horizontally, vertically, or diagonally.
 
 This implementation of the Tic Tac Toe game consists of three classes: main, Spieler, and TicTacToe.
