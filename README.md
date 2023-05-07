@@ -1,31 +1,29 @@
-# TicTacToe Game
-### This code was created since 2020 for educational purposes (OOP Application)
-The Tic Tac Toe game is a simple two-player game that is played on a 3x3 grid. Players take turns placing their marks (either 'x' or 'o') on the grid, with the goal of getting three marks in a row horizontally, vertically, or diagonally.
+# Tic Tac Toe
 
-This implementation of the Tic Tac Toe game consists of three classes: main, Spieler, and TicTacToe.
+This Tic Tac Toe game is a simple implementation in Java created in 2020 for educational purposes, showcasing Object-Oriented Programming (OOP) concepts. It allows two players to play against each other. Each player has three stones of two different types. The game is played on a 3x3 grid, and the objective is to get three of your stones in a row, either horizontally, vertically, or diagonally.
 
-## main class
-The main class is the entry point for the Tic Tac Toe game. It creates two instances of the Spieler class, initializes them with names and symbols, and then creates a TicTacToe object with those players.
+## Getting Started
 
-## Spieler class
-The Spieler class represents a player in the Tic Tac Toe game. Each player has a name and a mark ('x' or 'o'), as well as three game pieces of different sizes that they can use to play the game.
+To play the game, compile and run the `main.java` file. The game will start with player 1 and prompt for input to place stones on the board.
 
-## TicTacToe class
-The TicTacToe class represents the game board in the Tic Tac Toe game. It contains a 2D array to store the game board, two instances of the Spieler class to represent the players, and a current player.
+## Files
 
-The TicTacToe class has several methods:
+- `main.java`: The entry point of the game. It creates two Spieler objects representing the players, and a TicTacToe object representing the game board.
+- `Spieler.java`: Represents a player in the game. Contains the player's name, stones, and methods for interacting with the stones.
+- `TicTacToe.java`: Represents the game logic and board. Contains methods for placing stones, printing the board, and checking if a player has won.
 
-### initialize()
-This method initializes the game board by setting all spaces to empty.
+## How to Play
 
-### printBoard()
-This method prints the game board to the console.
+1. Compile the `main.java` file.
+2. Run the compiled `main.class` file.
+3. Follow the prompts to input the row, column, and stone number you wish to place on the board.
+4. The game will switch between the two players until one of them wins.
 
-### placePiece()
-This method allows a player to place one of their game pieces on the game board. It takes four parameters: the player who is placing the game piece, the x and y coordinates of the game piece on the board, and the number of the game piece the player wants to place. It returns true if the game piece is successfully placed, false otherwise.
+## Authors
 
-### hasWon()
-This method checks if the current player has won the game. It takes two parameters: the game board and the current player. It returns true if the current player has won, false otherwise.
+- Seifeddine Makhlouf
 
-### start()
-This method starts the Tic Tac Toe game. It sets the current player to player 1, and then loops until the game is over (i.e., a player has won or the game is a tie). In each iteration of the loop, it prints the game board, allows the current player to place a game piece, checks if the current player has won, and then switches to the other player. If the game is over, it prints the winner (or that the game is a tie) and exits the loop.
+## Educational Purpose
+
+This code was created in 2020 as an application of Object-Oriented Programming (OOP) concepts for educational purposes.
+
